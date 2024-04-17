@@ -1,0 +1,8 @@
+logging:
+  enabled: true
+  # logging.level:
+  # Debug, Info, Warn, Error, Fatal, Panic : Note that the level is case-sensitive and cumulative #
+  # (i.e. if you set it to "Error" it will log all errors, fatal and panic)
+  level: Info
+  output: "file" # file or stdout if file is used, the logfile must be set with logfile: "/var/log/pvs.log"
+  logfile: "duplication-finder.log"
